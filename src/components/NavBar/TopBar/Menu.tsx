@@ -4,7 +4,6 @@ import {FaUserCircle} from "react-icons/fa"
 
 export default function Menu() {
     const [isOpen, setIsOpen] = useState<boolean>(false)
-
   return (
         <div className="relative">
             <div className="flex flex-row justify-between items-center gap-3">

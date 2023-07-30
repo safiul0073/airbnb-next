@@ -1,15 +1,7 @@
 import React from 'react'
-import { ButtonPropsType } from '../../../types'
 
-export const Button = ({
-    onClick,
-    disabled,
-    customStyle,
-    text
-}:ButtonPropsType) => {
+export const Button = () => {
   return (
-    <button>
-        {text}
-    </button>
+    <div>Button</div>
   )
 }
