@@ -1,7 +1,19 @@
 import React from 'react'
+import { ButtonPropsType } from '../../../types'
 
-export const Button = () => {
+export const Button = ({
+  text,
+  type,
+  onClick,
+  styleClasses,
+}:ButtonPropsType) => {
   return (
-    <div>Button</div>
+    <button
+      className={`px-4 py-3 font-medium hover:bg-gray-200 rounded-md text-left ${styleClasses}`}
+      type={type || 'button'}
+      onClick={onClick}
+    >
+      {text}
+    </button>
   )
 }

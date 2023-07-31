@@ -1,3 +1,5 @@
+
+import HomePage from '@/components/pages/homePage'
 import {
     FiUmbrella,
     FiRewind,
@@ -12,43 +14,51 @@ import {
 export const menuItems = [
     {
         title: "Beach",
-        url: "/beach",
-        icon: <FiUmbrella/>
+        category: "beach",
+        icon: <FiUmbrella/>,
+        page: <HomePage />
     },
     {
         title: "Windmill",
-        url: "/windmill",
+        category: "windmill",
+        page: <HomePage/>,
         icon: <FiRewind/>
     },
     {
         title: "Country Side",
-        url: "/country-side",
+        category: "country-side",
+        page: <HomePage/>,
         icon: <FiMoreHorizontal/>
     },
     {
         title: "Pool",
-        url: "/pool",
+        category: "pool",
+        page: <HomePage/>,
         icon: <FiAtSign/>
     },
     {
         title: "Activity",
-        url: "/activity",
+        category: "activity",
+        page: <HomePage/>,
         icon: <FiActivity/>
     },
     {
         title: "Rocket",
-        url: "/rocket",
+        category: "rocket",
+        page: <HomePage/>,
         icon: <FiPocket/>
     },
     {
         title: "Calendar",
-        url: "/calender",
+        category: "calender",
+        page: <HomePage/>,
         icon: <FiCalendar/>
     }
     ,
     {
         title: "Camera",
-        url: "/camera",
+        category: "camera",
+        page: <HomePage/>,
         icon: <FiCamera/>
     }
 ]
