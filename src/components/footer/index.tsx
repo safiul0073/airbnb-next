@@ -31,7 +31,7 @@ const index = () => {
                 ))
             }
         </div>
-        <p className="py-2 pt-2 text-center uppercase font-bold text-lg">&#169; Copy Write 2023, All Right Reserve.</p>
+        <p className="py-2 pt-2 text-center uppercase font-bold text-lg">&copy; Copy Write 2023, All Right Reserve.</p>
     </div>
   )
 }

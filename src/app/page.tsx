@@ -5,7 +5,6 @@ import { menuItems } from "../constants/menuItems"
 import { useMemo } from "react";
 import { getParamValue } from "@/hooks/getParamValue";
 
-
 export default function Home() {
   const category = getParamValue()
   const page = useMemo(() => {

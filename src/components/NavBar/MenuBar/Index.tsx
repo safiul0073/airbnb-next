@@ -7,8 +7,8 @@ import { Item } from './Item';
 
 export default function Index() {
   return (
-    <div className="mt-6 shadow-md">
-        <ul className="px-[40px] flex flex-row font-medium mt-0 space-x-4 text-sm overflow-x-auto">
+    <div className="mt-6">
+        <ul className="px-[40px] flex flex-row font-medium mt-0 space-x-4 text-sm overflow-x-scroll no-scrollbar">
             {
                 menuItems.map((item:MenuItemPropsType, index:number) => (
                     <>

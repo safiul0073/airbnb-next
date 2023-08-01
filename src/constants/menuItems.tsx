@@ -8,7 +8,14 @@ import {
     FiActivity,
     FiPocket,
     FiCalendar,
-    FiCamera
+    FiCamera,
+    FiBluetooth,
+    FiBold,
+    FiChrome,
+    FiCodepen,
+    FiFilm,
+    FiFramer,
+    FiGift,
 } from 'react-icons/fi'
 
 export const menuItems = [
@@ -25,7 +32,7 @@ export const menuItems = [
         icon: <FiRewind/>
     },
     {
-        title: "Country Side",
+        title: "CountrySide",
         category: "country-side",
         page: <HomePage/>,
         icon: <FiMoreHorizontal/>
@@ -53,12 +60,53 @@ export const menuItems = [
         category: "calender",
         page: <HomePage/>,
         icon: <FiCalendar/>
-    }
-    ,
+    },
     {
         title: "Camera",
         category: "camera",
         page: <HomePage/>,
         icon: <FiCamera/>
+    },
+    {
+        title: "Lake",
+        category: "lake",
+        page: <HomePage/>,
+        icon: <FiBluetooth/>
+    },
+    {
+        title: "Skiing",
+        category: "skiing",
+        page: <HomePage/>,
+        icon: <FiBold/>
+    },
+    {
+        title: "Castles",
+        category: "castles",
+        page: <HomePage/>,
+        icon: <FiChrome/>
+    },
+    {
+        title: "Camping",
+        category: "camping",
+        page: <HomePage/>,
+        icon: <FiCodepen/>
+    },
+    {
+        title: "Caves",
+        category: "caves",
+        page: <HomePage/>,
+        icon: <FiFilm/>
+    },
+    {
+        title: "Camping",
+        category: "camping",
+        page: <HomePage/>,
+        icon: <FiFramer/>
+    },
+    {
+        title: "Arctic",
+        category: "arctic",
+        page: <HomePage/>,
+        icon: <FiGift/>
     }
 ]

@@ -13,9 +13,9 @@ export const Item = ({
   return (
     <Link
       href={`/?category=${category}`} 
-      className={`text-gray-900 pb-3 px-2 hover:text-blue-500 hover:border-b-4 hover:border-blue-500 flex flex-col gap-1 items-center ${category == categoryValue ? 'text-blue-500 border-b-4 border-blue-500' : ''}`}
+      className={`text-gray-700 pb-3 px-4 hover:text-blue-500 hover:border-b-4 hover:border-blue-500 flex flex-col gap-3 items-center ${category == categoryValue ? 'text-blue-500 border-b-4 border-blue-500' : ''}`}
       >
-        <div className="text-[30px] font-light">
+        <div className="text-[40px] font-mono">
             {icon}
         </div>
         <p className="font-normal inline-block">{title}</p>
