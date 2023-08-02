@@ -9,7 +9,7 @@ const index = () => {
             {
                 footerItems.map((item, index) => (
                     <div key={index}>
-                        <h4 className="font-bold text-gray-700 text-xl">{item.title}</h4>
+                        <h4 className="font-normal text-gray-700 text-2xl">{item.title}</h4>
                         <ul
                             className="pt-3"    
                         >
@@ -21,7 +21,7 @@ const index = () => {
                                     >
                                         <Link 
                                             href={link.url}
-                                            className=" font-thin text-sm text-gray-700"
+                                            className=" font-thin text-sm text-gray-800"
                                         > {link.title} </Link>
                                     </li>
                                 ))

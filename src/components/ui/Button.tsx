@@ -9,7 +9,7 @@ export const Button = ({
 }:ButtonPropsType) => {
   return (
     <button
-      className={`px-4 py-3 font-medium hover:bg-gray-200 rounded-md text-left ${styleClasses}`}
+      className={`px-4 py-3 font-medium rounded-md text-left ${styleClasses}`}
       type={type || 'button'}
       onClick={onClick}
     >

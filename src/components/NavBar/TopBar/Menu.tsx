@@ -38,10 +38,12 @@ export default function Menu() {
                     <div className="flex flex-col cursor-pointer overflow-y-auto">
                         
                         <Button 
+                            styleClasses="hover:bg-gray-200"
                             text="Login"
                             onClick={() => setLoginModalOpen(true)}
                         />
                         <Button 
+                            styleClasses="hover:bg-gray-200"
                             text="Sign Up"
                             onClick={() => setRegisterModalOpen(true)}
                         />
