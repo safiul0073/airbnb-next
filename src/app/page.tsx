@@ -12,7 +12,7 @@ export default function Home() {
   },[category])
 
   return (
-    <main className="my-6 px-8 pt-5">
+    <main className="max-w-screen-2xl mx-auto my-6 px-8 pt-5">
       {/* render page by category wise */}
       { page }
     </main>

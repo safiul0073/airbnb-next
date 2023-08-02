@@ -4,7 +4,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div className="mt-6 bg-gray-200">
+    <div className="max-w-screen-2xl mx-auto mt-6 bg-gray-200">
         <div className="py-8 px-4 md:px-16 grid grid-cols-2 md:grid-cols-4 gap-6">
             {
                 footerItems.map((item, index) => (
